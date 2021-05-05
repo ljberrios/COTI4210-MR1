@@ -3,9 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hi</title>
+    <title>Titulo</title>
   </head>
   <body>
-    <p>first website</p>
+    <table border="border" cellpadding="10">
+      <caption>
+        "Budget"
+      </caption>
+      <tr>
+        <th colspan="4">Quantity ($, in thousands)</th>
+      </tr>
+      <tr>
+        <th>IT</th>
+        <th>HR</th>
+        <th>Acct</th>
+        <th>Mngmt</th>
+      </tr>
+      <tr align="center">
+        <td>500,000</td>
+        <td>500,000</td>
+        <td>500,000</td>
+        <td>1,000,000</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td>
+            <input
+              type="text"
+              name="First Name"
+              placeholder="First Name"
+              id="first-name"
+              size="25"
+            />
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Last Name"
+              id="last_name"
+              size="25"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Address:&nbsp;&nbsp;</td>
+          <td>
+            <input
+              type="text"
+              name="Address"
+              id="address"
+              size="50"
+              maxlength="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="checkbox"
+              name="Mailing Options"
+              id="mailing_options"
+            />
+            <span>Priority Mail</span>
+            <br />
+            <input type="radio" name="Mailing Options" id="mailing_options" />
+            <span>Economy</span>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" id="submit" />
+            <input type="reset" id="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <br />
+    <br />
+
+    <h3><strong>Favorite series</strong>:</h3>
+    <ul>
+      <li>
+        <a href="https://www.imdb.com/title/tt2306299/" target="_blank">
+          Vikings
+        </a>
+      </li>
+      <li>
+        <a href="https://www.imdb.com/title/tt4998212/" target="_blank">
+          The Ranch
+        </a>
+      </li>
+      <li>
+        <a href="https://www.imdb.com/title/tt2085059/" target="_blank">
+          Black Mirror
+        </a>
+      </li>
+    </ul>
+
+    <h3><strong>Favorite character</strong>:</h3>
+    <img src="./img/sassy.png" alt="Sassy The Sasquatch" width="30%" />
   </body>
 </html>
